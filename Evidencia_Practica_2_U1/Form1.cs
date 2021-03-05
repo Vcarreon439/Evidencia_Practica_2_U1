@@ -38,9 +38,9 @@ namespace Evidencia_Practica_2_U1
 
         private void Dibujar_Fondo() 
         {
-            Fondo fondo = new Fondo(Color.Black, Color.Orange);
+            Fondo fondo = new Fondo(Color.Black, Color.DeepSkyBlue);
             fondo.DibujarFondo(ref hoja);
-            Mesa mesa = new Mesa(Color.AntiqueWhite,400,120);
+            Mesa mesa = new Mesa(Color.SandyBrown,400,120);
             mesa.DibujarMesa(ref hoja);
         }
     }
